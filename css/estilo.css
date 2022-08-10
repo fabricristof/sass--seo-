@@ -1,0 +1,82 @@
+.bodyPrincipal {
+  background: linear-gradient(to bottom, #B3E8E5, #3BACB6);
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  color: aliceblue; }
+
+footer {
+  background-color: #2F8F9D;
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  height: 400px; }
+
+header {
+  background-color: #2F8F9D; }
+  header p {
+    color: aliceblue;
+    font-size: 64px;
+    font-family: 'Nunito', sans-serif; }
+
+.navegadorPrincipal {
+  margin-top: 30px;
+  display: inline-block; }
+  .navegadorPrincipal a {
+    color: aliceblue; }
+    .navegadorPrincipal a:hover {
+      background-color: #B3E8E5;
+      color: #2F8F9D;
+      font-weight: bolder; }
+
+.headerPaginas {
+  background-color: #B3E8E5;
+  height: 70px; }
+  .headerPaginas a {
+    color: #2F8F9D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px; }
+
+.bodyPaginas {
+  background-color: #2F8F9D;
+  color: aliceblue;
+  font-family: 'Oswald', sans-serif; }
+
+.footerPaginas {
+  background-color: #B3E8E5;
+  color: #2F8F9D;
+  font-size: 32px;
+  font-weight: bolder; }
+
+.contenedorFormulario {
+  background-color: #B3E8E5;
+  width: auto;
+  text-align: center;
+  border-radius: 4px;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid;
+  font-family: 'Oswald', sans-serif; }
+  .contenedorFormulario h3 {
+    color: #2F8F9D;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif; }
+  .contenedorFormulario input {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #2F8F9D;
+    font-family: 'Nunito', sans-serif;
+    color: #2C3639;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase; }
+  .contenedorFormulario button {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #2F8F9D;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 5px; }
