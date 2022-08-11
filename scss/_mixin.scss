@@ -1,0 +1,23 @@
+
+
+@mixin ejmixin {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.ejemploDeMixin {
+    @include ejmixin;
+}
+
+@mixin ejMixinConParametros($tamano , $alineacion , $peso) {
+    font-size: $tamano;
+    text-align: $alineacion;
+    font-weight: $peso;
+    
+}
+
+.aplicoMixinParametros {
+    @include ejMixinConParametros(32px,center ,bolder )
+}

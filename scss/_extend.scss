@@ -1,0 +1,12 @@
+
+.ejemploExtend {
+    font-size: 32px;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+.ejemploExtend2 {
+    @extend .ejemploExtend;
+   font-family: 'Nunito', sans-serif;
+    
+}

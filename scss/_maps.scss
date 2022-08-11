@@ -1,0 +1,8 @@
+ 
+$ejemploMaps: (color:red , tamFuente:32px , volumen: bolder);
+
+.ejemploMaps {
+    background-color: map-get($map:$ejemploMaps , $key: color );
+    font-size: map-get($map:$ejemploMaps, $key: tamFuente );
+    font-weight: map-get($map:$ejemploMaps , $key:volumen );
+}
