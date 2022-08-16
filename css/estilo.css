@@ -31,15 +31,16 @@
 footer {
   background-color: black;
   font-family: 'Nunito', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   height: 400px; }
 
 header {
   background-color: black; }
   header p {
     color: aliceblue;
-    font-size: 64px;
-    font-family: 'Nunito', sans-serif; }
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10px; }
 
 .navegadorPrincipal {
   margin-top: 30px;
@@ -67,8 +68,11 @@ header {
 .footerPaginas {
   background-color: #343434;
   color: aliceblue;
-  font-size: 32px;
-  font-weight: bolder; }
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 50px; }
+  .footerPaginas h3 {
+    font-size: 3rem; }
 
 .contenedorFormulario {
   background-color: #E6B31E;
@@ -104,3 +108,19 @@ header {
     color: aliceblue;
     font-weight: bolder;
     border-radius: 5px; }
+
+.contenedorItems {
+  padding: 2px; }
+  .contenedorItems div {
+    height: 350px;
+    border: solid 1px;
+    box-sizing: border-box;
+    border-color: #2C3639;
+    margin: auto; }
+
+.contenedorMain {
+  padding: 70px; }
+  .contenedorMain h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+    text-align: center; }
